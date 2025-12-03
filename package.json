@@ -5,7 +5,8 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "cross-env DEBUG=mediasoup:* tsx src"
+    "dev": "cross-env DEBUG=mediasoup:* tsx src",
+    "build": "tsc"
   },
   "dependencies": {
     "express": "^5.1.0",
