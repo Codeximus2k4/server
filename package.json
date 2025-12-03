@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "dev": "DEBUG=mediasoup:* npx tsx src",
+    "dev": "DEBUG=mediasoup:* npx ts-node src",
     "build": "tsc"
   },
   "dependencies": {
