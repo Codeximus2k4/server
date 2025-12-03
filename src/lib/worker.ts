@@ -1,6 +1,6 @@
 import * as mediasoup from 'mediasoup';
 import type { Worker, Router } from 'mediasoup/types';
-import { config } from '../config';
+import { config } from '../config.js';
 
 const worker: Array<{
     worker: Worker;

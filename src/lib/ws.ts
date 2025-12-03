@@ -1,7 +1,7 @@
 import type { WebSocketServer,WebSocket } from "ws";
-import { createWorker } from "./worker";
+import { createWorker } from "./worker.js";
 import type { Producer, Router, Transport } from "mediasoup/types";
-import { createWebRTCTransport } from "./createWebRTCTransport";
+import { createWebRTCTransport } from "./createWebRTCTransport.js";
 
 let mediasoupRouter: Router;
 let producerTransport: Transport;

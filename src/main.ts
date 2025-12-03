@@ -1,7 +1,7 @@
 import express from 'express';
 import * as http from 'http';
 import {WebSocketServer} from 'ws';
-import { WebSocketConnection } from './lib/ws';
+import { WebSocketConnection } from './lib/ws.js';
 const main = () => {
    const app = express();
    const server = http.createServer(app);

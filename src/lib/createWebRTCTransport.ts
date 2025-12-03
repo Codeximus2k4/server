@@ -1,5 +1,5 @@
 import type { Router } from "mediasoup/types";
-import {config} from '../config';
+import {config} from '../config.js';
 
 const createWebRTCTransport = async(mediasoupRouter: Router) => {
     // Placeholder for creating a WebRTC transport
